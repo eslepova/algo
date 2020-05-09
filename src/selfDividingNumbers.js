@@ -1,4 +1,8 @@
 /**
+ * Given a lower and upper number bound,
+ * output a list of every possible self dividing number,
+ * including the bounds if possible.
+ *
  * @param {number} left
  * @param {number} right
  * @return {number[]}
