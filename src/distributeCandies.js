@@ -42,7 +42,7 @@ const distributeCandies = (candies, num_people) => {
     }
 
     for (let i = 0; i < num_people; ++i) {
-        const lastRowCandies = i + 1 + rowCount*num_people;
+        const lastRowCandies = i + 1 + numPeopleInCompleteRows;
         let toAdd = 0;
         if (lastRowCandies > remains) {
             toAdd = remains;
